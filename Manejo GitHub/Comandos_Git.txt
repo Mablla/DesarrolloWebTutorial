@@ -1,0 +1,7 @@
+http://www.github.com
+
+git config --global user.name "nombre"
+git config --global user.email "nnnn@ggg.com"
+git config --list 
+git config --global core.editor "vim" // Es el editor que abre Git en caso de conflicto. Vim es el editor por defecto de git
+En Git config se puede configurar en tres niveles los parámetros: <global> <de Usuario> <de Repo>
