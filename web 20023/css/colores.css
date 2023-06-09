@@ -1,0 +1,88 @@
+
+/* Resetemas los elementos a nada */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1{
+  width: 75px;
+  background-color:white;
+}
+
+section{
+  display: flex; /* Los contenidos se disponen flexibles */
+  flex-wrap: wrap;
+}
+
+.cajas{
+
+  /* Disponemos del contenido */
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cd_ffffff{
+  background-color: #ffffff;
+}
+.cd_000000{
+  background-color: #000000;
+}
+.cd_111111{
+  background-color: #111111;
+}
+.cd_eeeeee{
+  background-color: #eeeeee;
+}
+
+.cd_ff0000{
+  background-color: #ff0000;
+}
+
+.cd_00ff00{
+  background-color: #00ff00;
+}
+
+.cd_0000ff{
+  background-color: #0000ff;
+}
+
+.cd_110000{
+  background-color: #110000;
+}
+
+.cd_001100{
+  background-color: #001100;
+}
+
+.cd_000011{
+  background-color: #000011;
+}
+
+.cd_ee0000{
+  background-color: #ee0000;
+}
+
+.cd_00ee00{
+  background-color: #00ee00;
+}
+.cd_0000ee{
+  background-color: #0000ee;
+}
+
+.cd_880000{
+  background-color: #880000;
+}
+
+.cd_008800{
+  background-color: #008800;
+}
+.cd_000088{
+  background-color: #000088;
+}

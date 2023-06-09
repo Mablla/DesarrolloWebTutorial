@@ -1,0 +1,46 @@
+<html lang="es"><head>
+  <meta charset="utf-8">
+  <title>Posicionamiento flotante de otros elementos (1). Posicionamiento flotante. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    p {
+      float: left;
+      width: 100px;
+      height: 100px;
+      margin: 3px;
+      padding: 3px;
+      border: black 2px solid;
+    }
+
+    .toleft {
+      clear: left;
+    }
+
+  .toright {
+    clear: right;
+  }
+
+  .toboth {
+    clear: both
+  }
+
+  </style>
+</head>
+
+<body>
+  <p>Esto es el primer párrafo</p>
+
+  <p class="toleft">Esto es el segundo párrafo. toleft </p>
+
+  <p>Esto es el tercer párrafo </p>
+
+  <p class= "toboth">Esto es el cuarto párrafo. toboth </p>
+
+  <p>Esto es el quinto párrafo </p>
+
+  <p class="toright">Esto es el sexto párrafo. toright </p>
+
+  <p>Esto es el sectimo párrafo</p>
+
+
+</body></html>

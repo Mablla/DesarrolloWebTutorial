@@ -1,0 +1,538 @@
+<html lang="es" dir="ltr">
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nombre de la Solapa</title>
+    <link rel="icon" type="image/x-icon" href="ico/mablla.ico">
+    <!-- esta línea carga el favicon  -->
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Nombre de la solapa" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content=" http://www.example.com" />
+    <meta property="og:image" content=" http://example.com/image.jpg" />
+    <meta property="og:description" content="Este es un documento nuestra lo que hay que tener en cuenta a la hora de desarrollar una web" />
+
+    <!-- esta linea adecua el ancho de lo visualizable al dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style media="screen">
+              /* este es un comentario en style o css */
+              /* este área se utiliza para la presentación de estilos pero es más conveniente
+              insertar un archivo de css externo por su usabilidad y su facilidad de mantención */
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+      <!-- hfer="" hacer referencia a una ruta relativa-->
+
+    <!-- Incluyendo tipografia roboto desde google -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zeyada&display=swap" rel="stylesheet"> -->
+  </head>
+  <body>
+    <!--  Este es un comentario en html  -->
+    <p>Hola mundo!</p>
+    <h1>Editores de texto plano:</h1>
+    <p>Se pueden ultilizar entre otros:</p>
+    <main>
+      <ul>
+        <li>Visual Studio Code</li>
+        <li> Sublime text </li>
+        <li>NotePad++</li>
+      </ul>
+    </main>
+    <h1>Para abrir el desarrollo en el navegador</h1>
+    <p>Se puede abrir el html en el navegador predeterminado con metodo abreviado</p>
+    <h1>Buenas prácticas</h1>
+    <ul>
+      <li>Cambiar el atributo lenguanje a español: lang="es"</li>
+      <li>Modificar etiquete "title" para darle en nombre a la solapa</li>
+      <li>crear el favicon para darle una identificación a la página en la solapa</li>
+      <li>Tener en cunta el open graph protocol, para que aparesca una portada y una descripción cada vez que la dirección sea reenviada por las redes sociales</li>
+      <li>tener en cuenta el meta viewport para que el navegador adecue la pagina al tamaño del dispositivo</li>
+      <li>Tener en cuenta los media queries para adaptar la información a los distintos tamaños de dispositivos</li>
+      <li>Diseñar una pagina para cada dispositivo y utilizar las las tag semanticas para dar información a los motores de búsquedas sobre nuestras páginas</li>
+      <li>nombrar todos los recursos usados con nombres adecados y ustilizar la semántica adecuada para que los buscadores los tengan en cuenta en sus búsquedas</li>
+      <li>simpre respetar el identado para que el codigo sea legible para otro desarrollador</li>
+      <li>Siempre realizar una buena practica de comentarios en el diseño de la página</li>
+
+    </ul>
+
+    <p><em>... A esto se lo llama como: BUENAS PRACTICAS DE PROGRAMACIÓN...</em></p>
+    <h1>Lista desordenada</h1>
+    <p>   <strong>identado</strong> </p>
+    <main>
+      <ul>
+        <li>contenido 1</li>
+        <li>contenido 2</li>
+        <li>contenido 3</li>
+      </ul>
+    </main>
+    <h1>El elementos <em>emphasis</em> y el elemento <strong>fuerte</strong> </h1>
+    <h1>El elemento span</h1>
+    <p>Las solapas tienen <span style="color: blue;">títulos</span></p>
+    <h1>El elemento <em>a</em>: ancla </h1>
+    <a href="https://wwww.w3schools.com" target="_blank">Visitar W3Schools</a>
+    <br>
+    <a href="otroarchivo.html">ir a otro archivo</a>
+    <br>
+    <h1>Elemento html - head - body</h1>
+    <p>Elemento <em>html:</em> el gran contenedor</p>
+    <p>A su vez se va a dividir en dos contenedores: head y body </p>
+    <p><em>head:</em> va a contener toda la meta información que se le va dar al navegador con respecto de nuestro documento, tal como el elemento title </p>
+    <p><em>body:</em> lo que se va a ver en el navegador</p>
+    <br>
+    <h2>Elementos del elemento body</h2>
+    <p><em>elemeto: h (titular) viene del ingles: heading -> titular</em></p>
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+    <p>estos elemetos h (titulos) tienen un valor semantico que es importante para el navagador y el desempeño de la pagina</p>
+    <p>Los titulos tienen distintas <em>randerizaciones</em> que vienen predetermida en cada navegador, luego con css (capa de presentacioón) se le prodrá dar la <em>custonización</em> buscada por el desarrollador</p>
+    <br>
+    <h1>Imagenes</h1>
+    <p>dentro del body utilizar el elemnto img</p>
+    <p>este elemento tendrá los siguientes atributos: src="ruta_de_la_imagen", alt="texto alternativo si la imagen:<em>...buenas prácticas</em> describir la imagen" </p>
+    <p>por ejemplo docente enseñando html. Esto tiene dos ventajas: 1. que el usuario vea al menos una descripción de la imagen y; los buscaores encuentren nuestra </p>
+    <p>pagina cunado busquen "docente...enseñando...html"</p>
+    <p>no tiene un cierre, o sea se cierra en si mismo</p>
+    <img src="img/person.png" alt="Es el icono de una persona">
+    <br>
+    <img alt="Billete argentina 2000 pesos" height="100" width="100" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/WIKNHQFMCBDDDP5XHI4WH4SYVQ.jpg" srcset="https://www.infobae.com/new-resizer/PsOZHlVkvXcOwJICrelYueK3DY4=/265x149/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/WIKNHQFMCBDDDP5XHI4WH4SYVQ.jpg 265w,https://www.infobae.com/new-resizer/Ilxb1iWdCWhIHwXlwTNOb9fXo74=/420x236/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/WIKNHQFMCBDDDP5XHI4WH4SYVQ.jpg 420w,https://www.infobae.com/new-resizer/-qWphGB_5Oul5jziIYpswbL-x6U=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/WIKNHQFMCBDDDP5XHI4WH4SYVQ.jpg 768w,https://www.infobae.com/new-resizer/PMF23Y-UgJt9Vz_Px1UAlc2NyMc=/992x558/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/WIKNHQFMCBDDDP5XHI4WH4SYVQ.jpg 992w,https://www.infobae.com/new-resizer/vI2tnCJ6B3UNxXdFmp-RC-YjHF4=/1200x675/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/WIKNHQFMCBDDDP5XHI4WH4SYVQ.jpg 1200w,https://www.infobae.com/new-resizer/avBdIZdrpzAKc-jEbUCUWEQafG8=/1440x810/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/WIKNHQFMCBDDDP5XHI4WH4SYVQ.jpg 1440w" sizes="(min-width: 1024px) 768px, 90vw" loading="eager">
+    <h1>Trabajando con la consola de google chrome</h1>
+    <p>Se  puede cambiar atributos del desarrollo en el navegador desde la consola del desarrllodor a efectors de ir probando nuestro desarrollo.</p>
+    <br>
+    <h1>Elemento de bloque, elemento de líenea</h1>
+    <p> <em>Elemento de bloque:</em> Un elemento a nivel bloque siempre comienza en una nueva línea y los navegadores automáticamente agregan algo de espacio (un margen) antes y después del elemento. si no se altera su comportamiento en css <br>Un elemento a nivel de bloque siempre ocupa todo el ancho disponible (se extiende hacia la izquierda y hacia la derecha tanto como puede).</p>
+    <a href="https://www.w3schools.com/html/html_blocks.asp">Elemento de bloque, elemento de líenea</a>
+    <p> <em>Elemento de liena</em>Un elemento en línea no comienza en una nueva línea.<br>Un elemento en línea solo ocupa el ancho necesario.</p>
+    <h1>El elemento form</h1>
+    <p>Aquí se comienza a ver el concepto de elementos anidados: padre-hijo, puesto que voy a ir creando las distintas etiquetas y campos del formulario</p>
+    <form class="" action="index.html" method="get">
+      <div class="">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Ingrese s nombre" required>
+      </div>
+      <div class="">
+          <label for="apellido">Apellido</label>
+          <input type="text" name="apellido" placeholder="Ingrese apellido" required>
+      </div>
+      <div class="">
+          <label for="email">email</label>
+          <input type="email" name="email" placeholder="Ingrese email" required>
+      </div>
+      <div class="">
+          <label for="clave">clave</label>
+          <input type="password" name="pasword" value="" required>
+      </div>
+      <div class="">
+          <input type="submit" value="Envair">
+      </div>
+
+      <div class="modulo2">
+      <h1>Elementos multimediales</h1>
+      <h1>video</h1>
+      <p> Para buscar información sobre cualquier elemento html puede visatar los siguientes enlaces o directamente uar google</p>
+      <p> <a href="https://www.w3schools.com/html/html_media.asp" target="_blank">Elementos multimedia-w3schols</a> </p>
+      <p> <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content">Elementos multimediales-Mozilla</a> </p>
+      <p>Cuando usted esté colaborando con un proyecto multimedia siempre constate la compatibidad con los navegadores de los futuros usuarios. <br> Para ello Usted podrá visitar la siguiente páguina:</p>
+      <p> <a href="https://caniuse.com/">I can use: Compatibilidad de los elementos html (tag) con los navegadores</a></p>
+      <p>Cuando no se puede usar un tag hay que justificar al cliente</p>
+      <div class="video">
+        <video width="400" controls>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+          Tu navegador no soporta el elemento vide, por lo que no podrás visualizar este contenido. Intentá acceder al mismo con un navegador más moderno.
+        </video>
+        <video width="400" controls>
+          <source src="https://cdn.profesional.ticmas.io/resources/6398e8a99423af001689e6e4/assets/XytixVdbL5PxMl8h_transcoded-KRk4RZVmoQYf1P4c-01-%20Elemento%20Video.mp4?v=1" type="video/mp4">
+          Tu navegador no soporta el elemento vide, por lo que no podrás visualizar este contenido. Intentá acceder al mismo con un navegador más moderno.
+        </video>
+        <h1>Audio</h1>
+        <audio controls>
+          <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+          <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h1>Embeber video de youtube</h1>
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CKy5I55pNgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+        <h1>Comentarios en HTML</h1>
+        <p> Hay vaios atajos: ctl+/ que es lo mismo en algunos teclados que ctl+shif+7 </p>
+        <p>Puede selecionar y lugo usar el atajo</p>
+        <!-- Comentario -->
+        <h1>Web semantica y Open Graph</h1>
+        <h2>Web semántica</h2>
+        <p>Hay que tener en cuenta que no solamente se desarrolla para el cliente sino también para el robot de google, para el buscador</p>
+        <p>Hay que pensar si cuando estoy diseñando la página estoy pensado además en la semántica para que sea leído por los buscadores.</p>
+        <p>Por ejemplo: Un títlo h1 por página. No puede haber más. Los otros deben ser menos importante</p>
+        <p>Tener en cuenta el favicon que va con el nombre de la solapa</p>
+        <a href="https://www.favicon.cc/">favicon</a>
+        <p>En desarrollo web hay personas que trabajan el posicionamiento órganico de los desarrollos (SEO) y van a estar viendo ésto.</p>
+        <header>
+          <h2>Logo del sitio</h2>
+        </header>
+        <nav>
+          <h2>barra de navegación</h2>
+        </nav>
+        <section>
+          <h2>seccion de la pagina</h2>
+        </section>
+        <article class="">
+          <h2>articulo</h2>
+        </article>
+        <aside class="">
+          <h2>a un lado</h2>
+        </aside>
+        <footer>
+          <h2>Pie de pagina</h2>
+        </footer>
+        <h2>Open Graph: og protocol</h2>
+        <p>Sirve para previsualizar la pagina cuando se comparte la página en redes sociales</p>
+
+      </div>
+        <h1>Estilo a la pagina web, capa de presentaión: CSS</h1>
+        <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics">mdn web doc - css básico</a>
+        <p>se va  a trabajas con el par clave-valor: (selector {declaracion} ) selector {propiedad1:valor1; propiedad2:valor2}  </p>
+        <p>ej.: h1{color:red; font-size:12px;}</p>
+        <p>se puede incorporar css de tres formas posibles:</p>
+        <p><em>Inline styles:</em> <'tag style="property: value">: se trabaja con la propiedad style en cada elemento. Esta forma está totalmente desconcejada por su dificil mantenimiento </tag> </p>
+        <p><em>Internal styles</em>: en el head bajo la etiqueta <'style media="screen"> <'/style> </p>
+        <p><em>Include external css file:</em> que incluye archivo css externo. En el head se deberá deberá incluir la sentencia: </p>
+        <p> la sintaxis es: <'link rel="stylesheet" type="text/css" href="/style.css"> </p>
+        <p>hfer="" hacer referencia a una ruta relativa</p>
+        <p>La mejor forma de trabajar con css es hacer un archivo css que nos sirva para las multiples hojas html</p>
+        <h2>Manual resumido de html, css y js</h2>
+        <a href="https://htmlcheatsheet.com/">htmlcheatsheet</a>
+        <h1>Box model</h1>
+        <a href="https://www.w3schools.com/css/css_boxmodel.asp">Box model</a>
+        <p>El modelo de caja contiene: el contenido, el relleno, el borde y el margen; tecnicamente: content, padding, border, margin</p>
+        <p>El ancho de las propiedades padding, border y margin se los puede individalizar con -top, -right -bottom, -left</p>
+        <p> las propiedades se leen en el siguiente sentido: arriba, a la derecha, abajo y a la izquierda</p>
+        <p>la propieded content: ancho y alto se puede mangejar con width y height</p>
+        <p>Una pagina muy utilizada entender el modelo de cajas es:</p>
+        <a href="https://www.lipsum.com/">lipsum</a>
+        <p>Se podra ver parrafos para usar los distintos formatos</p>
+        <h2>Ir a un html con modelo de caja</h2>
+        <a href="modelosCajas.html">Modelo de caja prueba</a>
+        <h1>Selectores y tipografías, atributo ID, atributo CLASS</h1>
+        <a href="https://htmlcheatsheet.com/">htmlcheatsheet</a>
+        <p>Se definen las hojas de estilos en cascada</p>
+        <p>Selectores</p>
+        <ul>
+          <li> <p>*{}: para todos los elementos</p> </li>
+          <li>Ver Selectores, Pseudo Clases, atributos selecteres</li>
+          <li>Id:  #ID {}</li>
+          <li>Clases: .class{}</li>
+        </ul>
+        <h1>tipografías</h1>
+        <p>Para saber un poco más de tipografías:</p>
+        <a href="https://www.w3schools.com/css/css_font.asp">Css fonts</a>
+        <p>Para buscar tipografías nuevas:</p>
+        <a href="https://fonts.google.com/">Google fonts</a>
+        <p>en este caso hay que importar la tipografía elegida con .link. en el .head. y en el archivo css declarar la tipografia a usar</p>
+        <h1>Responsive web design Introduction, Meta viewport - Media queries</h1>
+        <a href="https://www.w3schools.com/css/css_rwd_intro.asp">Responsive web design</a>
+        <h2>Responsive web design</h2>
+        <p>El meta viewport define el área visible de la pagina y la adecua al tamaño del dispositivo que visita la página web</p>
+        se debe cargar en el head con el tag meta.
+        <h2>Grillas de vistas</h2>
+        <p>Esta grilla se utiliza para dividir la pantalla mayormente en 12 columnas</p>
+        <p>Debe tener la propiedad box-sizing</p>
+        <p>Y se deben definir 12 clases con los tamaños de columnas</p>
+        <h2>Media query</h2>
+        <a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">w3schols</a>
+        <br>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries">Mozilla</a>
+        <p>Emplos de medias queries:  <a href="MediaQuery.html">Media Query</a> </p>
+        <p>Variable Sass punto de ruptura</p>
+        <p>$grid-breakpoints: (               <br>
+              xs: 0,                          <br>
+              sm: 576px,                      <br>
+              md: 768px,                      <br>
+              lg: 992px,                      <br>
+              xl: 1200px,                     <br>
+              xxl: 1400px                     <br>
+          );</p>
+          <p>puntos de ruptura</p>
+          <p>Punto de ruptura..........infijo de clase...................Dimensiones                 <br>
+            X-pequeño..................Ninguno...........................menor 576px                 <br>
+            Pequeño....................sm................................≥ 576px                     <br>
+            Medio......................md................................≥ 768px                     <br>
+            Grande.....................lg................................≥ 992px                     <br>
+            Extra grande...............xl................................≥ 1200px                    <br>
+            Extra extra grande.........xxl...............................≥ 1400px                    </p>
+        <h2>FrameWork para la construcción de paginas: Bootstrap</h2>
+        <a href="https://getbootstrap.com/">Bootstrap</a>
+        <br>
+        <a href="https://getbootstrap.com/docs/5.0/examples/cheatsheet/">Hoja Tramposa Bootstrap</a>
+        <p>Siempre supervisar las versiones de los Framework: ej buscar en internet: Bootstrap changelog para que me muestre las versiones</p>
+        <a href="bootstrap.html">Ejemplo de pagina con bootstrap</a>
+        <h3></h3>
+        <h2>Alojamiento y tipos de servidores</h2>
+        <p>La arquitectura cleinte-servidor permite acceder a diversos sitios alojados en distintos servidores y se acceden a través de direcciones IP</p>
+        <p>La página que desarrollamos se debe alojar en un servidor, con una dirección de acceso (dirección IP)</p>
+        <p>abajo sobre el protocolo IP</p>
+        <a href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_IPv6#:~:text=IPv6%20es%20el%20sucesor%20del,mucho%20m%C3%A1s%20amplio%20que%20IPv4.">Protocolo IPV6</a>
+        <p>Estos servidores se alquilan por mes</p>
+        <p>Para las practicas se puede utilizar Git Hab como servidor de hosting</p>
+        <p>Para buscar: "proveedores de hosting en argentina"</p>
+        <p>Los hosting que se pueden contratar en argentina son:</p>
+        <ul>
+          <li>Hostinger</li>
+          <li>donweb</li>
+        </ul>
+        <p>Debemos ver que es lo que necesitamos, para una sola pagina (landing page) o a lo sumo dos debemos contratar uno chico</p>
+        <h2>Compras de dominios</h2>
+        <p>El dominio (direción) se debe pueden compar en dierentes portales dependiendo de la extención del mismo. En argentina con extension .ar .com.ar .net.ar se puede hacer a través de noc.ar</p>
+        <a href="https://nic.ar/buscar-dominio">NIC Argentina</a>
+        <a href="https://www.godaddy.com/es/offers/godaddy?isc=ARGDYGON1&currencyType=ARS&marketid=es-ar&cdtl=c_17945609745.g_144966876692.k_kwd-35326291860.a_614608322829.d_c.ctv_g&bnb=b&gclid=Cj0KCQiAi8KfBhCuARIsADp-A54kecCuDpDWLrVDXMDMBFKM-Q1_wigbXh4KBh-Ue291C82bsYzGDHcaAireEALw_wcB">GoDaddy</a>
+        <br>
+        <a href="nic.ar">nic</a>
+
+        <h1>Introducción a Git Hub y versionado</h1>
+        <p>Que es versionar: es guardar la evolución de un desarrollo de pagina web para no perder versiones anteriores a las modificaciones introducidas</p>
+        <p>Este control de versiones se puede hacer a través de Git</p>
+        <a href="https://git-scm.com/">Git</a>
+        <br>
+        <a href="https://git-scm.com/docs">Documentos Git</a>
+        <br>
+        <a href="https://ndpsoftware.com/git-cheatsheet.html#loc=stash;">Git CheatSeet</a>
+        <br>
+        <a href="files/git-cheat-sheet-education.pdf">PDF</a>
+        <p>descargar git desde el sitio</p>
+        <p>Comandos git</p>
+        <ul>
+          <li>git --version: Muestra la versión de git</li>
+          <li>git init: Inicia repositorio</li>
+          <li>git config user.name "Miguel Angel Bauza"</li>
+          <li>git config user.email "miguel.angel.bauza@gmail"</li>
+          <li>git status: nos dice que hay en el directorio. Y nos dice si hay commits (confirmaciones) de todo los cambios en el respositorio local</li>
+          <li>git add . :para cargar los cambios al repositorio local</li>
+          <li>git status: para confirmar si fueron cargados los cambios</li>
+          <li>git commit -m"aquí va un mensaje lo sufientemente descritivo para los otros usuarios"</li>
+          <li>git status : describe en que estado está el repositorio local</li>
+          <li>git log : nos muestra el id del commit, autor, fecha, mensaje grabado  </li>
+          <li>git log --oneline</li>
+          <li>git blame index.html : delata los cambios realizado al archivo a través del tiempo</li>
+          <li>git sow id_commit_7_cifras_está_bien : Muestra los cambios realizados en el commit solicitado</li>
+        </ul>
+        <h2>Repositorios remotos que usan git</h2>
+        <ul>
+          <li> <a href="#"></a>GitHub</li>
+          <li> <a href="#"></a>GitLab</li>
+          <li> <a href="#"></a>BitBucket.org</li>
+        </ul>
+        <h2>subir repositorios a los repositorios remotos</h2>
+        <p>Primero se debe registrarse en el repositorio remoto y luego con los comandos se puede subir el proyecto al repositorio remoto</p>
+        <ul>
+          <li>git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git</li>
+          <li>git push -u origin master</li>
+        </ul>
+    </div>
+    <div class="Como_encarar_Proyectos">
+      <h2>Cómo encarar un proyecto web</h2>
+      <ul>
+        <li>Validar el alcance del Proyecto</li>
+        <p>Significa que hay que interactuar con el cliente, preguntar y relevar la información de cómo construir lo que él espera como soliución web</p>
+        <li>De entrada debe quedar bien claro, qué es lo que el cliente quiere, Landing page, pagína institucional o un portarl de varias secciones</li>
+        <p>Lo más recomendable es aprobechar las plataforma de encuentro remoto</p>
+        <p>Coordinar secciones páginas y diseño. Papel y lápiz. Hablar un de qúe vá el proyecto. Tenemos que saber que muchas veces el cliente no sabe que pretende del proyecto final</p>
+        <p>Por ejemplo: quiere una página web para hacer una campaña publicitaria con <em>googleapis o facecaps</em> con una platafrma de anuncios.</p>
+        <p>Bueno contame que secciones querés, dentro de la página principal que querés mostrar. La idea es que mientras el cliente nos cuenta lo que va necesitando hay que ir imaginanado la estructura.</p>
+        <p>Primero antes del maquetado tenemos que hacer el bocetado si es que tenemos conocimientos de <em>Diseño</em>. Aquí hay que ser capaces de bajar los conceptos que relevaron al diseño de la pagina </p>
+        <p>Hay plataforma que nos permiten hacer bocetos: <a href="#">Ficma</a>, <a href="#">adobexd</a> </p>
+        <p>Y que es un boceto: es un prototipo en el cúal le mostramos al cliente lo que nos imagimanos. Y por qué no mostrarle lo hecho ya sobre html, es porque seguro el cliento siempre va a querer cambiar cosas </p>
+        <p>En el boceto se puede dar el derecho a réplica. Se lo hacemos llegar antes de la reunión para poder obtener un feedback.</p>
+        <p>Puede suceder que el cliente no lo haya visto pero es mejor esto que el Diseñador ande corriendo con el demo antes antes de la presentación. Además si pasa que el cliente no tubo tiempo, no quda el diseñador en falta.</p>
+        <p>En ese feedback lo importante son los datos que son valiosos. Luego volver con un nuevo boceto (segunda entrega). No dejen que el cliente entre en aguste continuos de diseño. Ya el próximo encuentro es sobre maqueta. Son dos o tres semanas de bocetado, pero no todos los clientes son iguales hay que cotizar el tiempo extra.</p>
+        <p>Ahora bien al boceto hay que pasarlo al maquetado de html y css. Hay que ser consciente que tiempo nos va a llevar el diseño. Si el proyecto es amplio debemos ver hasta que página llegar o a que scroll llegar, pero es importante tener esa interacción con el cliente</p>
+        <p>Muchas veces chocamos con limitantes técnicos en el diseño que el cliente propone y aquí debemos hacer propuestas superadoras para llevarlo adelante.</p>
+        <p>Cuando terminamos el maquetado hay que validar semanticame el documento y luego validar con el cliente.</p>
+        <p>El contenido editorial se lo tiene que proveer el contenido material y los téxtos que van a describir el cliente. Este contenido editorial hay que pedirselo en la primera reunión con el cliente.</p>
+      </ul>
+    </div>
+    <div class="Logica_de_Negocios">
+      <h2>Lógica de negocio</h2>
+      <p>Tecnologías a tener en cuenta:</p>
+      <ul>
+        <li>HTML 5</li>
+        <p>No es un programa de programación sino de es estructyra</p>s
+        <li>CSS 3</li>
+        <p>Es la capa de presentación.</p>
+        <p>Con css 3 se puede aprender a hacer transacciones y animaciones. </p>
+        <li>Git</li>
+        <p>Comocer cosas medias</p>
+        <li>java script</li>
+        <p>es comportamiento</p>
+        <p>Se nombra como lenguaje de la redes. Hay que aprender js puro, luego las librerías como node,react etc.</p>
+        <p>Con js se puede agragar comportamiento del lado del cliente.</p>
+        <p>Js estará escuchando lo que pase en la pagina: botones, menú, carruceles de imágenes: Todos estos son eventos.</p>
+        <li>Lenguajes de programación del lado del servidor (Backend): PHP, JAVA, C++, SILLART, PYTHON</li>
+        <p>El servidor debe seguir la lógica de negocio, ejemplo no más de 100 inscriptos. ¿Que hago cuando acceda el 101? ¿Valido despues que envió el formaulario ó, cheque a la entrada de cada prospecto?</p>
+        <h2>Aprender a escribir un lenguaje de programación</h2>
+        <ul>
+          <li>Comportamiento de la lógica del negocop</li>
+          <li>Sopesar todas las funcionalidades que el cliente solita. El lengua lo puede elegir el desarrollador o el cliente.</li>
+          <p>Armar un diagrama de flujo para el cliente que le muestre lo que va a hacer la aplicación en base a lo hablado. Para que el cliente no diga eso no te pedí.</p>
+        </ul>
+        <p>Algunas aplicaciones que ayudan a esto<:/p>
+        <ul>
+          <li> <a href="https://marvelapp.com/labs">Marvel Labs</a> que sirve para contruir prototipos</li>
+          <li> <a href="https://balsamiq.com/">balsamiq.com</a> que sirve para contruir prototipos </li>
+        </ul>
+        <li>Contacto semanal con el cliente. Revalidar todo con el cliente antes de tirar línea de código </li>
+        <li>Responsabilidad en el desarrollo - testeo de lo que se hace</li>
+        <li>Garantizar que funciona en todos los escenario posibles.</li>
+        <li>Intancia de prueba del cliente - Los clientes siempre encuentran fallas, por tanto es muy importante el testeo por otros que tienen otra cabeza (no de programador).</li>
+        <p>Si sos la única persona en todo el desarrollo, antes de testear: ¡dejar enfriar la cabeza!</p>
+        <h2>Qué lenguajes utilizar</h2>
+        <p>Depende del proyecto a encarar, se puede usar uno u otro. Nuestro objetivo es desarrollar software para resolver problemas. No casarse con ningún lenguaje. Aprender los que se puedan. Hay que seguir el desarrollo de las tecnologías.</p>
+        <p> ¿Qué hacer?</p>
+        <ul>
+          <li>Mantenerse actualizado.</li>
+          <li>Hacer un curso de actualización cada tanto.</li>
+          <li>Seguir a todas las cuentas oficiales de lenguajes.</li>
+          <li>Seguir las cuentas sociales de referentes de la programación.</li>
+          <li>Para seguir apreniendo buscar códigos de buenas procticas de programación, primero de forma genérica (lógica en general), luego en un lenguaje en particular.</li>
+          <li>Empiencen a enseñar.Para devolver todo lo que aprendí y saber que lo sé, porque si sé para explicarle a otro más lo sé para mí mismo.</li>
+        </ul>
+      </ul>
+    </div>
+    <div class="Pensamiento_logico">
+      <h1>Pensamiento Lógico</h1>
+      <p>El pensamiento lógico es indispensable a la hora de programar, ya que nos permite reconocer el problema que queremos solucionar, buscar una solución que podamos programar y analizar las salidas que obtengamos para formarnos conclusiones.</p>
+      <p>Ante algún ante la necesidad de guardar información en bases de datos: debo pensar todos los esenarios lógicos que se pueden presentar</p>
+      <ul>
+        <li>Reconocer el problemas que tenemos.</li>
+        <p>Una utilidad que se puede usar es <a href="https://app.diagrams.net/">draw.io</a>. Con esta herramienta podemos hacer una diagrama de flujo que representará al algoritmo que usará la computadora </p>
+      </ul>
+      <h2>Cómo pensar logicamente. Principios y tecnicas de programación.</h2>
+      <p>Las tecnicas de progración más populares son:</p>
+      <ul>
+        <li>DRY (DRY - Don't repeat Yourself)</li>
+        <p>Significa no repitas código.</p>
+        <li>Divide y vencerás</li>
+        <p>En las ciencias de la computación, el término divide y vencerás (DYV) hace referencia a uno de los más importantes paradigmas de diseño algorítmico. El método está basado en la resolución recursiva de un problema dividiéndolo en dos o más subproblemas de igual tipo o similar. El proceso continúa hasta que éstos llegan a ser lo suficientemente sencillos como para que se resuelvan directamente. Al final, las soluciones a cada uno de los subproblemas se combinan para dar una solución al problema original.Esta técnica es la base de los algoritmos eficientes para casi cualquier tipo de problema como, por ejemplo, algoritmos de ordenamiento (quicksort, mergesort, entre muchos otros), multiplicar números grandes (Karatsuba), análisis sintácticos (análisis sintáctico top-down) y la transformada discreta de Fourier.</p>
+        <li>WET - write everything twice</li>
+        <p>Las violaciones de DRY se denominan típicamente soluciones WET, que comúnmente se interpretan como "escribir todo el tiempo", "escribir todo dos veces", "disfrutamos escribiendo" o "hacemos perder el tiempo a todos".</p>
+        <li>Hacer diagramas de flujo</li>
+        <li>UML-Lenguaje de modelado unificado</li>
+        <p>Las violaciones de DRY se denominan típicamente soluciones WET, que comúnmente se interpretan como "escribir todo el tiempo", "escribir todo dos veces", "disfrutamos escribiendo" o "hacemos perder el tiempo a todos".</p>
+        <p>El término “lenguaje” ha generado bastante confusión respecto a lo que es UML. En realidad el término lenguaje quizás no es el más apropiado, ya que no es un lenguaje propiamente dicho, sino una serie de normas y estándares gráficos respecto a cómo se deben representar los esquemas relativos al software.</p>
+      </ul>
+      <h2>Practicar logicas de programación</h2>
+      <p>El <a href="https://scratch.mit.edu/">Scratch</a> del instituto MIT ha creado sitio para programar y juagar aventuras. Está dedicado a los más pequeños pero aquí, para el que quiera programar aparecen controles, eventos, objetos, etc. y que en la programación estos conceptos estan presentes </p>
+      <h2>Machine Learning</h2>
+      <p>Hoy en día está instalada ya en el mercado la <a href="https://www.w3schools.com/ai/ai_machine_learning.asp">Machine Learning</a> es un campo de estudio que brinda a las computadoras la capacidad de aprender sin ser programadas. Esta se diferencia de la progración tradional puesto por el enfoque que tiene:</p>
+      <p>Computación tradicional</p>
+      <p>Datos + Algoritmo informático = Resultado</p>
+      <p>Machine Learning utiliza los resultados para crear programas (algoritmos):</p>
+      <p>Aprendizaje automático</p>
+      <p>Datos + Resultado = Algoritmo de computadora  </p>
+    </div>
+    <div class="Introcuccion_a_Lenguajes_de_Computacion">
+      <h1>Introducción a Lenguajes de Computación</h1>
+      <p>Un lenguaje de programación es un lenguaje formal (o artificial, es decir, un lenguaje con reglas gramaticales bien definidas) que le proporciona a una persona, en este caso el programador, la capacidad de escribir (o programar) una serie de instrucciones o secuencias de órdenes en forma de algoritmos con el fin de controlar el comportamiento físico o lógico de un sistema informático, de manera que se puedan obtener diversas clases de datos o ejecutar determinadas tareas. A todo este conjunto de órdenes escritas mediante un lenguaje de programación se le denomina programa informático.​</p>
+      <p>Programar viene a ser el proceso de crear un software fiable mediante la escritura, prueba, depuración, compilación o interpretación, y mantenimiento del código fuente de dicho programa informático.</p>
+      <h2>Documentación</h2>
+      <p>La documentación es una buena practirca de realizar un documento en el cual se describe información util para los desarrolladores al momento de realizar el mantenimiento del programa</p>
+      <ul>
+        <li>Dejar un archivo de documentación: ej: leame.txt redmi.txt </li>
+        <li>Versión de lenguaje que se está usando</li>
+        <li>Entorno que necesitan</li>
+      </ul>
+      <h2>Intérprete o compilador</h2>
+      <p>Vea <a href="https://es.wikipedia.org/wiki/Int%C3%A9rprete_(inform%C3%A1tica)">interprete</a> o <a href="https://es.wikipedia.org/wiki/Compilador">compitalador</a> en Wikipedia</p>
+      <h2>Paradigmas de un Lenguaje de programación</h2>
+      <p>Para más información consulte <a href="https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n">Wikipedia</a> </p>
+      <h2>Tipado de los lengujes de programación</h2>
+      <p>Existen los lenguajes fuertemente tipados y no tipados</p>
+      <p>Los fuenemente tipados son aquellos en los que se deben explicitar tadas la declaraciones de variables y respetar su tipo, en los no tipados esta regla no existe o es más laxa.</p>
+      <p>Para ver más información puede visitar <a href="https://es.wikipedia.org/wiki/Tipado_fuerte"></a>Wikipedia</p>
+      <p>C++ es un lenguaje altamente tipado y es el padre de muchos otros más modernos. Para leer sobre este lenguaje puede consultar un muy buen libro: <a href="files/lenguaje_c.pdf">El lenguaje de programación C. </a>(Kernighan Brian w. & Ritche Dennis M.).</p>
+      <p>Vea buenas practicas de programación para <a href="https://code.tutsplus.com/es/tutorials/24-javascript-best-practices-for-beginners--net-5399"></a>JavaScript</p>
+      <p>Utiliza  <a href="https://www.jslint.com/">JSLint</a>. JSLint es un depurador par js. Solo tienes que pegar tu script, y rápidamente escaneará en busca de problemas y errores notables en tu código.</p>
+      <h2>Usos de variables, tipos de variables</h2>
+      <p> <a href="https://es.wikipedia.org/wiki/Variable_(programaci%C3%B3n)#:~:text=En%20programaci%C3%B3n%2C%20una%20variable%20est%C3%A1,desconocida%2C%20es%20decir%20un%20valor.">Ver Variable</a> </p>
+      <p>Una variable es un lugar de almacenamiento de datos en la memoria principal del ordenador</p>
+      <p>Para ver una guía de js puede ver: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">Java Script Guide</a> de  Mozilla.</p>
+      <p>También puede consultar <a href="https://www.w3schools.com/java/java_data_types.asp">W3Schools</a> sobre variales js</p>
+      <ul>
+        <li>Numéricas</li>
+        <li>Alfabéticas</li>
+        <li>objetos</li>
+        <li>Etc.</li>
+      </ul>
+      <p>Es de buenas practivas que las variables reciban un nombre adecuado con el contexto para que saber que datos queremos almacenar con esa variable.</p>
+      <h2>Consdición Iteración y secuencia</h2>
+      <p><em>Secuencia</em> Se ejecuta una instrucción tras otra</p>
+      <p><em>Decisión</em> En base a una decisión se elege un camino u otro ej sentencia: if else</p>
+      <p><em>Iteracción</em>En base a una decisión se repite o no una sentencia o grupo de sentencia el sentencia for(){}</p>
+      <h2>Introducción a Java Scritpt</h2>
+      <p>Ver <a href="https://www.w3schools.com/js/js_variables.asp">Declaracioens de variables en JavaScript de W3Schools.</a></p>
+      <p>Palabras claves: var, let, const</p>
+      <p>Identificadores permitidas, case-sensitive</p>
+      <p>uso del '$' y del '_' en identificadores</p>
+      <p>Operadores =, ==, ===</p>
+      <p></p>
+      <p>Comentarios de códigos</p>
+      <h2>Integrando Js dentro de un documentos</h2>
+      <p>Ejemplo de insertar js en<a href="insertarJsEnHtml.html">HTML</a> y capturar un evento de botón</p>
+      <h2>Eventos</h2>
+      <p>Listado de <a href="https://developer.mozilla.org/es/docs/Web/Events">eventos</a> en developer mozilla </p>
+      <p>Listado de <a href="https://www.w3schools.com/jsref/dom_obj_event.asp">eventos</a>en W3Schools </p>
+      <p>para buscar los codigos de <a href="https://htmlcolorcodes.com/">colores</a> en HTML. </p>
+      <h2>El DOM y su relación con JS</h2>
+      <p> <a href="https://www.w3schools.com/js/js_htmldom.asp">HTML DOM (document Object Model)</a>w3schools</p>
+      <p>Se debe entender DOM para poder trabajar con los elementos que hay en él.</p>
+      <h2>JSON Trabajo con API's</h2>
+      <p>En w3schols puede ver la definición de <a href="https://www.w3schools.com/js/js_json_intro.asp">JSON</a>. Con este formato se puede trasportar información en forma de clave:valor</p>
+      <p>Con las intrucción JSON.parson(var) puede transformar información en un objet0</p>
+      <p>Ejemplo:</p>
+      <p>let persona ={"nombre":"Daniel","Edad":49}</p>
+      <p>let obj = JSON.parse(persona)</p>
+      <h2>API's</h2>
+      <p><a href="https://jsonplaceholder.typicode.com/">API JSON</a> </p>
+      <p>Con este servidor se puede consumir JSON a través de la instrucción: fetch().then()</p>
+      <h2>LocalStorage-PWA</h2>
+      <p>Para estudiar <a href="https://www.w3schools.com/jsref/prop_win_localstorage.asp">LocalStorage</a> puede visitar W3schools</p>
+      <p>LocalStorage permitirá almacenar información en el navegador de diversas temas. Como ejemplo Ustedes pueden gauardar el usuario de la pagina en el Almacenamiento local para no buscarlo cada vez que accedan al sitio.</p>
+      <p>Ejemplo: Se quiere contar las veces que se entra a una página</p>
+      <p>if (localStorage.contadorDeEntradas) {</p>
+      <p>  localStorage.contadorDeEntradas = Number(localStorage.contadorDeEntradas) + 1;</p>
+      <p>} else {</p>
+      <p>localStorage.contadorDeEntradas = 1;</p>
+      <p>}</p>}
+      <p>Como tarea queda  buscar en internet para que significan dada unas de las solapas de appication de la consola del desarrollador de los navegadores</p>
+      <h2>API de geolocalización</h2>
+      <p>Para ver como geolocaliar a una persona puede ver <a href="https://www.w3schools.com/html/html5_geolocation.asp">Localice a un usuario</a> de W3School</p>
+      <p>En la solapa de Aplicaciones del desarrollador web del navegador se encuentra en los tres puntitos en más opciones sensores. Aquí aparecen la geolocalización de ciudades del munodo, configuración regional y id de zona horaria.</p>
+      <h2>PWA</h2>
+      <p>Para ver este tema visite <a href="https://developer.mozilla.org/es/docs/Web/Progressive_web_apps">Aplicaciones Web Progresivas</a> de develoer.Mozilla.</p>
+    </div>
+    <div class="Trabajo_Practico">
+      <h2>Desarrollar un curriculum vitae</h2>
+      <ul>
+        <li>Información Personal</li>
+        <li>Experiencia</li>
+        <li>Habilidades</li>
+        <p>Se puede utilizar nombres ficticios que se pueden extraer de la siguiente página <a href="https://randomuser.me/">Random user generator</a>.</p>
+      </ul>
+      <p>Luego de obtener toda la información necesaria, deberás hacer boceto de cómo va a quedar tu cv. Aquí debes pernsar que elementos HTML vas a necesitar y que le darar vida a tu cv.</p>
+      <p>Una ves que tengas la información y la esgtructura vamos a agregarle el disño. Se puede importar tipografías, de <a href="https://fonts.google.com/">Google Fonts</a> y utilizar <a href="https://fontawesome.com/">Font Awesome</a> para emplear íconos que que ilustren el proyecto.</p>
+      <p>Cómo último incorpora funcionalidades complementárias utilizando eventos.</p>
+      <a href="https://www.youtube.com/watch?v=SRn6izex6vQ">Desarrollo de un Curriculum Vite</a>
+      <p>Paginas de diseño: ficma stech adobexd  </p>
+      <p>33.02</p>
+      <a href="https://entrellaves.com/html5/etiquetas-html-para-principiantes/">etiquetas html</a>
+      <a href="https://platzi.com/tutoriales/2008-html-css/7858-bem-la-mejor-manera-de-nombrar-tus-clases-de-html/">BEM</a>
+      <a href="https://www.istockphoto.com/es/search/2/image?family=creative&phrase=desarrollo+frontend">repositorio de imagenes</a>
+      <p>escritorio: 5472 x 2885 píxeles (46,33x24,43)</p>
+    </div>
+</html>

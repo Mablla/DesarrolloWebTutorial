@@ -1,0 +1,7 @@
+section{
+  width: 50px;
+  height: 150px;
+  border: 10px 20px 10px solid red;
+  padding: 10px 30px 30px;
+  margin: 10px 20px 30px 40px;
+}

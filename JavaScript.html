@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>JavaScript</h1>
+    </header>
+
+    <nav>
+
+    </nav>
+
+    <section>
+      <h2>Conceptos básicos de JavaScript</h2>
+
+      <article class="Introduccion">
+        <h3>Introducción</h3>
+        <p>JavaScript
+
+            Es un lenguaje de programación que surgió para proporcionar interactividad y dinamismo a las páginas Web. Es por esta razón que se considera un lenguaje para desarrollos Front End; sin embargo recientemente ha sido extendido, a través de Node.js, para también ser utilizado en ambientes Back End, convirtiéndose en un lenguaje de propósito general.
+
+            La gran cantidad de desarrollos Web que incorporan código JavaScript para implementar su comportamiento, lo hacen mediante una propuesta interesante para incursionar en el mundo de la programación y en particular la programación Web. Esta propuesta instruccional inicia proporcionando las nociones básicas del lenguaje JavaScript que incluyen los tipos de datos (tales como los enteros, strings y arreglos), estructuras de control (tales como while y for) y condicionales (tales como if/else), para luego ir progresando en el uso de componentes más avanzados de dicho lenguaje. Exploramos así conceptos de funciones asíncronas, la orientación a objetos en JavaScript, las expresiones regulares y las funciones de orden superior.
+
+            Una vez transitado por los componentes fundamentales de JavaScript estudiamos el rol del lenguaje en los desarrollos Web. Es aquí donde hacemos hincapié en la integración de JavaScript con HTML. El Document Object Model o DOM (Modelo de Objetos del Documento) nos proporciona la representación ideal para explorar cómo se pueden acceder a los elementos del navegador usando el lenguaje y sirve como punto de partida para introducir las Web APIs (Application Programming Interface), que nos permiten ejecutar funciones o acceder algunas característica de nuestro sitio Web. Las  interacciones de JavaScript y HTML son analizadas aún más a través de los eventos que ocurren cuando el usuario interactúa con una página,
+
+            En nuestro camino por JavaScript exploramos las funciones asíncronas, a través de las promesas, las peticiones asíncronas al servidor a través de Ajax, la simplificación de la programación en JavaScript con JQuery y la creación de dibujos en nuestra página usando Canvas. Asimismo, examinamos algunas técnicas de compresión de archivos JavaScript en ambientes de producción y el uso de Content Delivery Networks o CDNs (Redes de Distribución de Contenido) para replicar nuestros archivos en diversos servidores en la red.
+          </p>
+          <p>Fuente: Next U</p>
+
+      <h3>Variables y tipos de datos</h3>
+        <p>JavaScript es un lenguaje de alto nivel interpretado, dinámico(sus lineas se pueden generar en tiempo de ejecución), debilmente tipado, multiparadigma (funcional, orientado a objetos, orientado a prototipos), programación imperativa. Está diseñado para agregar dinamismos a las páginas HTML, poder interactuar con las páginas y dispositivos pudiendo realizar georeferenciacón entre otras operaciones. inicialmete se pensó como lenguaje de navegador o frontend. Con node se ha extendido como lenguaje de uso general para programación de servidores o backend. Se puede utilizar para crear aplicaciones de escritorio gracias a las extenciones de node y que se pueden ejecutar en diversos sistemas operativos. React es el frameWork para frontend promovido por Angular.js de Google y Vue.js. Se han implementado standares de Js que permita implementarse en todos los navegadores. Los estandares los dicta la organización ECMA. </p>
+        <p>En programación, las variables son contenedores que nos permiten almacenar valores numéricos, cadenas de caracteres o estructuras de datos como listas, arreglos de valores u objetos y funciones.</p>
+        <h3>Nombres de las variables</h3>
+        <p>Los nombres: Los nombres de las variables son muy flexibles aunque te recomendamos estas buenas prácticas para nombrar tus variables:</p>
+        <ul>
+          <li>Los nombres de variables deben expresar la idea de lo que representan.</li>
+          <li>Se suele utilizar la convención camelCase para nombrar las variables.</li>
+          <li>Se pueden utlizar letras, números, guión bajo y signo pesos para los nombres. No está permitido el restos de los caracteres especiales.</li>
+          <li>Los nombres de las variables puede contener los caracteres guión bajo ( _ ) o signo de pesos ( $ ) en cualquier lugar del nombre (comienzo, dentro o final del nombre).</li>
+          <li>Debe empezar con letras mayusculas o minúsculas, signo pesos o guión bajo, nunca con números.</li>
+          <li>No es permite el uso de palabras reservadas como nombres de variables.</li>
+        </ul>
+        <h3> Tipos de variables </h3>
+        <ul>
+          <li>string: var nombre = "Julio"; // se pueden usar " " o ' ' </li>
+          <li>Entero: var edad = 17;</li>
+          <li>Flotante: altura = 1.78;</li>
+          <li>Arreglo: var colores["rojo","azul","verde"];</li>
+          <li>Objeto: var persona = {altura:1.92, nombre:"Julian"};</li>
+          <li>Logicos o booliano: var activo = false;</li>
+        </ul>
+        <h3>Operaciones con variables</h3>
+        <ul>
+          <li>Aritmeticas: suma, resta, multiplicación división, potencia, logaritmos, etc.</li>
+          <li>String: concatenación (+), </li>
+        </ul>
+        <h3>Funciones, Ámbitos de las variables (local y global)</h3>
+        <p>function caidaLibre(masa, altura){...return valor;}</p>
+        <p>En js una variable puede tener el valor de una función:</p>
+        <p>var g = caidaLibre;</p>
+        <p>var s= g(5, 8)</p>
+        <p>Las variables declaradas dentro de una función tienen un alcance local, las declaradas en el modulo general tienen un alcance global. El interprete busca las variables en los ambitos locales, sino las encuentra sigue buscando en ámbitos más generales hasta llegar finalmente al ambito global.</p>
+      </article>
+
+      <article class="Trabajando_con_String">
+        <h2>Trabajando con String</h2>
+        <h3>Definición de String</h3>
+        <p>Los variables String contienen valores texto (alfanuméricos) conformados por letras, números, símbolos, signos de puntuación y caracteres especiaels entre otros. y se expresan encerrando el valor entre comillas dobles " " o simples ' ' y se pueden intercalar el uso de las comillas como como delimitador de los datos string o como caractrer dentro del valor texto.</p>
+        <p>Ejemplo:  var nombre = "Gustavo 'Toto' Bores" o var nombre = 'Gustavo "Toto" Bores'</p>
+        <p>Otra forma de diferenciar un comilla como delimitador del String o como caracter es por el uso de los <em>caracteres de escape</em> donde se antepone la barra invertida a la comilla simple o la doble para escapar de su función de delitador. </p>
+        <p>Ej: nombre = 'Gustavo \'Toto\' Bores'</p>
+
+        </dl>
+      </article>
+
+      <article class="Article: Modelo_1.3">
+        <h2>Modelo_1</h2>
+        <dl class="Modelo_1.3">
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+
+        </dl>
+      </article>
+
+    </section>
+
+    <section>
+      <h2>Titulo: Modelo_2</h2>
+
+      <article class="article: Modelo_2.1">
+        <h3>Modelo_2-1</h3>
+
+        <dl class="Modelo_2.1">
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+
+        </dl>
+      </article>
+
+      <article class="Article: Modelo_2.2">
+        <h2>Modelo_2.2</h2>
+        <dl class="Modelo_2.2">
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+
+        </dl>
+      </article>
+
+      <article class="Article: Modelo_2.3">
+        <h2>Modelo_1</h2>
+        <dl class="Modelo_2.3">
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+
+        </dl>
+      </article>
+
+    </section>
+
+    <aside class="aside: Modelo">
+    </aside>
+
+    <footer>
+    </footer>
+
+
+  </body>
+</html>
