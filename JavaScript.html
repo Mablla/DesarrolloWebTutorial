@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>JavaScript</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
   </head>
 
   <body>
@@ -32,39 +35,44 @@
           </p>
           <p>Fuente: Next U</p>
 
-      <h3>Variables y tipos de datos</h3>
-        <p>JavaScript es un lenguaje de alto nivel interpretado, dinámico(sus lineas se pueden generar en tiempo de ejecución), debilmente tipado, multiparadigma (funcional, orientado a objetos, orientado a prototipos), programación imperativa. Está diseñado para agregar dinamismos a las páginas HTML, poder interactuar con las páginas y dispositivos pudiendo realizar georeferenciacón entre otras operaciones. inicialmete se pensó como lenguaje de navegador o frontend. Con node se ha extendido como lenguaje de uso general para programación de servidores o backend. Se puede utilizar para crear aplicaciones de escritorio gracias a las extenciones de node y que se pueden ejecutar en diversos sistemas operativos. React es el frameWork para frontend promovido por Angular.js de Google y Vue.js. Se han implementado standares de Js que permita implementarse en todos los navegadores. Los estandares los dicta la organización ECMA. </p>
-        <p>En programación, las variables son contenedores que nos permiten almacenar valores numéricos, cadenas de caracteres o estructuras de datos como listas, arreglos de valores u objetos y funciones.</p>
-        <h3>Nombres de las variables</h3>
-        <p>Los nombres: Los nombres de las variables son muy flexibles aunque te recomendamos estas buenas prácticas para nombrar tus variables:</p>
-        <ul>
-          <li>Los nombres de variables deben expresar la idea de lo que representan.</li>
-          <li>Se suele utilizar la convención camelCase para nombrar las variables.</li>
-          <li>Se pueden utlizar letras, números, guión bajo y signo pesos para los nombres. No está permitido el restos de los caracteres especiales.</li>
-          <li>Los nombres de las variables puede contener los caracteres guión bajo ( _ ) o signo de pesos ( $ ) en cualquier lugar del nombre (comienzo, dentro o final del nombre).</li>
-          <li>Debe empezar con letras mayusculas o minúsculas, signo pesos o guión bajo, nunca con números.</li>
-          <li>No es permite el uso de palabras reservadas como nombres de variables.</li>
-        </ul>
-        <h3> Tipos de variables </h3>
-        <ul>
-          <li>string: var nombre = "Julio"; // se pueden usar " " o ' ' </li>
-          <li>Entero: var edad = 17;</li>
-          <li>Flotante: altura = 1.78;</li>
-          <li>Arreglo: var colores["rojo","azul","verde"];</li>
-          <li>Objeto: var persona = {altura:1.92, nombre:"Julian"};</li>
-          <li>Logicos o booliano: var activo = false;</li>
-        </ul>
-        <h3>Operaciones con variables</h3>
-        <ul>
-          <li>Aritmeticas: suma, resta, multiplicación división, potencia, logaritmos, etc.</li>
-          <li>String: concatenación (+), </li>
-        </ul>
-        <h3>Funciones, Ámbitos de las variables (local y global)</h3>
-        <p>function caidaLibre(masa, altura){...return valor;}</p>
-        <p>En js una variable puede tener el valor de una función:</p>
-        <p>var g = caidaLibre;</p>
-        <p>var s= g(5, 8)</p>
-        <p>Las variables declaradas dentro de una función tienen un alcance local, las declaradas en el modulo general tienen un alcance global. El interprete busca las variables en los ambitos locales, sino las encuentra sigue buscando en ámbitos más generales hasta llegar finalmente al ambito global.</p>
+      </article>
+
+      <article class="Variables_y_Tipos_de_Datos">
+        <h3>Variables y tipos de datos</h3>
+          <p>JavaScript es un lenguaje de alto nivel interpretado, dinámico(sus lineas se pueden generar en tiempo de ejecución), debilmente tipado, multiparadigma (funcional, orientado a objetos, orientado a prototipos), programación imperativa. Está diseñado para agregar dinamismos a las páginas HTML, poder interactuar con las páginas y dispositivos pudiendo realizar georeferenciacón entre otras operaciones. inicialmete se pensó como lenguaje de navegador o frontend. Con node se ha extendido como lenguaje de uso general para programación de servidores o backend. Se puede utilizar para crear aplicaciones de escritorio gracias a las extenciones de node y que se pueden ejecutar en diversos sistemas operativos. React es el frameWork para frontend promovido por Angular.js de Google y Vue.js. Se han implementado standares de Js que permita implementarse en todos los navegadores. Los estandares los dicta la organización ECMA. </p>
+          <p>En programación, las variables son contenedores que nos permiten almacenar valores numéricos, cadenas de caracteres o estructuras de datos como listas, arreglos de valores u objetos y funciones.</p>
+          <h3>Nombres de las variables</h3>
+          <p>Los nombres: Los nombres de las variables son muy flexibles aunque te recomendamos estas buenas prácticas para nombrar tus variables:</p>
+          <ul>
+            <li>Los nombres de variables deben expresar la idea de lo que representan.</li>
+            <li>Se suele utilizar la convención camelCase para nombrar las variables.</li>
+            <li>Se pueden utlizar letras, números, guión bajo y signo pesos para los nombres. No está permitido el restos de los caracteres especiales.</li>
+            <li>Los nombres de las variables puede contener los caracteres guión bajo ( _ ) o signo de pesos ( $ ) en cualquier lugar del nombre (comienzo, dentro o final del nombre).</li>
+            <li>Debe empezar con letras mayusculas o minúsculas, signo pesos o guión bajo, nunca con números.</li>
+            <li>No es permite el uso de palabras reservadas como nombres de variables.</li>
+          </ul>
+          <h3> Tipos de variables </h3>
+          <ul>
+            <li>string: var nombre = "Julio"; // se pueden usar " " o ' ' </li>
+            <li>Entero: var edad = 17;</li>
+            <li>Flotante: altura = 1.78;</li>
+            <li>Arreglo: var colores["rojo","azul","verde"];</li>
+            <li>Objeto: var persona = {altura:1.92, nombre:"Julian"};</li>
+            <li>Logicos o booliano: var activo = false;</li>
+          </ul>
+          <h3>Operaciones con variables</h3>
+          <ul>
+            <li>Aritmeticas: suma, resta, multiplicación división, potencia, logaritmos, etc.</li>
+            <li>String: concatenación (+), </li>
+          </ul>
+          <h3>Funciones, Ámbitos de las variables (local y global)</h3>
+          <p>function caidaLibre(masa, altura){...return valor;}</p>
+          <p>Ver:</p>
+          <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Function/bind">Function.prototype.bind()</a>
+          <p>En js una variable puede tener el valor de una función:</p>
+          <p>var g = caidaLibre;</p>
+          <p>var s= g(5, 8)</p>
+          <p>Las variables declaradas dentro de una función tienen un alcance local, las declaradas en el modulo general tienen un alcance global. El interprete busca las variables en los ambitos locales, sino las encuentra sigue buscando en ámbitos más generales hasta llegar finalmente al ambito global.</p>
       </article>
 
       <article class="Trabajando_con_String">
@@ -72,11 +80,59 @@
         <h3>Definición de String</h3>
         <p>Los variables String contienen valores texto (alfanuméricos) conformados por letras, números, símbolos, signos de puntuación y caracteres especiaels entre otros. y se expresan encerrando el valor entre comillas dobles " " o simples ' ' y se pueden intercalar el uso de las comillas como como delimitador de los datos string o como caractrer dentro del valor texto.</p>
         <p>Ejemplo:  var nombre = "Gustavo 'Toto' Bores" o var nombre = 'Gustavo "Toto" Bores'</p>
-        <p>Otra forma de diferenciar un comilla como delimitador del String o como caracter es por el uso de los <em>caracteres de escape</em> donde se antepone la barra invertida a la comilla simple o la doble para escapar de su función de delitador. </p>
+        <p>Otra forma de diferenciar una comilla como delimitador del String o como caracter es por el uso de los <em>caracteres de escape</em> donde se antepone la barra invertida a la comilla simple o la doble para escapar de su función de delitador. </p>
         <p>Ej: nombre = 'Gustavo \'Toto\' Bores'</p>
+        <p>Ej: nombre = "Gustavo \"Toto\" Bores"</p>
+        <h3>Sintaxis de String interpolados a partir de ECMAScript 6</h3>
+        <p>`¿Hola ${juan} cómo estas?.
+             Ahora sigo abajo...`</p>
+        <p>Ver:</p>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">Template Lietarals</a>
+        <h3>Propiedades y Métodos</h3>
+        <p>Los String (Cadenas de caracteres o de datos alfanuméricos) tienen sus propios atributos (propiedades) y métodos. Los más usados son:</p>
+          <dl class="Propiedades_y_Metodos">
+            <dt>Propiedad longitud (length)</dt>
+            <dd>"Primer nombre".length;</dd>
+            <dt>Método Minusculas (toLowerCase)</dt>
+            <dd>"CURSO DE JAVASCRIPT".toLowerCase (); // Los métodos llevan parentesis.</dd>
+            <dt>Método Mayúsculas (toUpperCase)</dt>
+            <dd>"estoy aprendiendo javascript".ToUpperCase();</dd>
+            <dt>Método Recortar (trim)</dt>
+            <dd>"     eliminando espacios en blanco        ".trim ();  // Elimina los blancos ubicados al principio y al final de la cadena.</dd>
+            <dt>Método Split(rebanar)</dt>
+            <dd>var arreglo = "gustavo, toto, bores".split(",") // Resultado: </dd>
+            <dd></dd>
+            <dd></dd>
+            <dd></dd>
+
+          </dl>
+
+          <h2>Operaciones con String</h2>
+          <dl class="Operaciones_con_String">
+            <dt>Concatenacion de variables o datos:</dt>
+            <dd>var a = "juan" + " y " + "Andrés."</dd>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+
+          </dl>
+          <h4>Kilos</h4>
+      </article>
+
+      <article class="moedelo">
+        <h2>Modelo_1</h2>
+        <dl class="Modelo_1.3">
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
 
         </dl>
       </article>
+
 
       <article class="Article: Modelo_1.3">
         <h2>Modelo_1</h2>
